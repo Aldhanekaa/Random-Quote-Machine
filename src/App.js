@@ -50,6 +50,7 @@ class App extends Component {
       <div className="App" >
         <Header getRandomQuote={this.getRandomQuote} />
         <Main quote={this.state.quote} author={this.state.quoteAuthor} quoteGenre={this.state.quoteGenre} multipleQuotes={this.state.multipleQuotes} getMultipleQuotes={this.getMultipleQuotes} quotes={this.state.quotes} />
+        <Footer />
       </div>
     );
   }
@@ -113,6 +114,14 @@ const AuthorWrapper = (props) => {
       </div>
     </div>
 
+  )
+}
+
+const Footer = () => {
+  return (
+    <footer>
+      <p>©2020, by <a href="https://github.com/Aldhanekaa">Aldhanekaa</a></p>
+    </footer>
   )
 }
 

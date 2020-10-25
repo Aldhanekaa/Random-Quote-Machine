@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
+.github-corner {
+  z-index: 99;
+  position: fixed;
+}
+
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -182,5 +187,12 @@ body {
   color: #F2F2F2;
   opacity: 0;
   cursor: pointer;
+}
+
+footer {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: #7e7e7e;
 }
 /*# sourceMappingURL=App.css.map */

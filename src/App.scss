@@ -1,3 +1,8 @@
+.github-corner {
+    z-index: 99;
+    position: fixed;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');
 @mixin flex($flex, $fd, $jc, $ai) {
     display: $flex;
@@ -112,4 +117,11 @@ body {
             }
         }
     }
+}
+
+footer {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    color: rgb(126, 126, 126);
 }
